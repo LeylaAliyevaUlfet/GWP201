@@ -1,0 +1,70 @@
+#header1{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 70px;
+    
+}
+#label1{
+    color: blue;
+}
+#label2{
+    color: blueviolet;
+}
+#label3{
+    color: brown;
+}
+#label4{
+    color: chartreuse;
+}
+input:focus{
+    background-color: black;
+    color: brown;
+}
+#sec1{
+    text-align: center;
+    background-color: grey;
+    padding: 100px;
+}
+.r1{
+ accent-color: green;
+}
+#b1:hover{ 
+    background-color: aqua;
+
+}
+
+img {
+    text-align: right;
+}
+#b1 {
+    background-color: yellow;
+}
+#sec2 {
+    background-color: pink;
+    padding: 100px;
+}
+#h31 {
+    text-align: leftS;
+}
+#txt1{
+    resize: none;
+}
+.input5:focus{
+background-color: white;
+color: black;
+}
+#lbldt{
+    color: blueviolet;
+}
+#save1{
+    background-color: brown;
+}
+#save1:hover{
+    background-color: blueviolet;
+}
+#sec3{
+    background-color: grey;
+    padding: 100px;
+
+}
