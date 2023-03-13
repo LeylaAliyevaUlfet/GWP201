@@ -1,0 +1,49 @@
+
+#body1 {
+    background-image: url("https://wallpaperaccess.com/full/1413656.jpg") ;
+    margin-top: 150px;
+
+}
+section {
+justify-content: center;
+    display: flex;
+}
+#div2{
+    background-color: rgba(241, 241, 246, 0.5);
+}#pre1{
+    color: brown;
+}
+.button{
+    background-color: transparent;
+    font-size:16px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: coral;
+}
+#body2{
+    background-image: 
+    url("https://wallpaper.dog/large/11003020.jpg");
+  background-attachment: local,scroll;
+  
+
+   
+}
+#header1{
+    
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    font-size: 30px;
+}
+.p{
+    color: black;
+
+}
+#ss1{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/12/710/574/minions-4k-windows-background-wallpaper-preview.jpg");
+}
+
+
+
