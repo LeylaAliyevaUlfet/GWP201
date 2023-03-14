@@ -8,3 +8,6 @@ Use focus and hover
 ## Css backgroun
 ### Used technology:
  background(background-attachment, rgba+ opacity), button:hover
+ ## Css box model
+ ### Technology
+ icons(font awesome), font-family(google font), text-shadow, a tag(don't use button tag), border, background-attachment
