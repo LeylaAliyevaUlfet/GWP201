@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fffaed;
+}
+nav ul{
+    display: flex;
+    column-gap: 30px;
+}
+#information{
+    display: flex;
+    justify-content: center;
+    background-color: #fffaed;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    
+}
+#services{
+    background-color: rgb(155, 155, 242);
+    text-align: center;
+}
+#services .umumi{
+    display: flex;
+    justify-content: center;
+}
+footer{background-color: rgb(29, 27, 27);
+
+}
+footer .ficons{
+    color: #e9b949;
+    text-align: center;
+}
+footer .copy{
+    text-align: center;
+    color: aqua;
+}
+#about .about1 .aboutcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
