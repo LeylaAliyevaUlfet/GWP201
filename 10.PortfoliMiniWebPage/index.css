@@ -12,6 +12,7 @@ header{
     justify-content: space-around;
     background-color: #fffaed;
     padding: 20px;
+    row-gap: 40pxpx;
 }
 nav ul{
     display: flex;
@@ -25,6 +26,10 @@ nav ul li a{
 header h3 span{
     text-shadow: 3px 2px 3px black;
     color: #e9b949;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    color: black;
 }
 /* Information */
 #information{
@@ -43,6 +48,9 @@ div span{
     border-radius: 5px;
     background-color: #e9b949;
     text-decoration: none;
+}
+.button a:hover{
+    background-color: rgb(151, 151, 239);
 }
 .Icons{
     display: flex;
@@ -109,6 +117,9 @@ div span{
     text-decoration: none;
 
 }
+.aboutme a:hover{
+    background-color: rgb(130, 130, 242);
+}
 /* Services */
 #services{
     background-color: rgb(221, 221, 245);
@@ -121,6 +132,7 @@ div span{
     display: flex;
     justify-content: space-around;
     column-gap: 20px;
+    row-gap: 20px;
 }
 .umumi1{
     border: 20x solid white;
@@ -160,4 +172,15 @@ footer .ficons a{
 footer .copy{
     text-align: center;
     color: aqua;
+}
+@media only screen and (max-width: 992px){
+    #information{
+        flex-direction: column;
+    }
+    #about{
+        flex-direction: column;
+    }
+    #services .umumi{
+        flex-direction: column;
+    }
 }
