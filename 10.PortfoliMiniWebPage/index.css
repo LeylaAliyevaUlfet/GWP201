@@ -111,7 +111,7 @@ div span{
 }
 /* Services */
 #services{
-    background-color: rgb(155, 155, 242);
+    background-color: rgb(221, 221, 245);
     text-align: center;
 }
 #services{
@@ -144,6 +144,7 @@ div span{
   justify-content: center;
 
 }
+
 footer{background-color: rgb(29, 27, 27);
 padding: 30px;
 }
