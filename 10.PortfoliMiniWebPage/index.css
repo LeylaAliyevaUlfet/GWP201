@@ -13,11 +13,16 @@ header{
     background-color: #fffaed;
     padding: 20px;
     row-gap: 40pxpx;
+    position: fixed;
+    z-index: 2;
+ width: 100%;
+ padding: 10px 5%;
 }
 nav ul{
     display: flex;
     column-gap: 30px;
     list-style: none;
+    
 }  
 nav ul li a{
     text-decoration: none;
@@ -31,6 +36,10 @@ nav ul li:hover{
     text-decoration: underline;
     color: black;
 }
+.menu{ display: none;}
+.li1{
+    display:block
+}
 /* Information */
 #information{
     display: flex;
@@ -38,6 +47,7 @@ nav ul li:hover{
     align-items: center;
     column-gap: 50px;
     background-color: #fffaed;
+    padding-top: 90px;
 
 }
 div span{
@@ -182,5 +192,14 @@ footer .copy{
     }
     #services .umumi{
         flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px){
+    
+.li1{
+    display:none
+}
+    .menu{
+        display:block
     }
 }
