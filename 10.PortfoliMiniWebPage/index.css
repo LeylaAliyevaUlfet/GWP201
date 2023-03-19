@@ -166,7 +166,14 @@ div span{
   justify-content: center;
 
 }
-
+.ser::after{
+    content: "";
+    border: 2px solid #e9b949;
+    display: block;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
 footer{background-color: rgb(29, 27, 27);
 padding: 30px;
 }
