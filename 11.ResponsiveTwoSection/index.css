@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    column-gap: 100px;
+    column-gap: 50px;
    padding: 100px;
 
 }
@@ -81,4 +81,35 @@ i{
 }
 .c2{
     font-family:'Catamaran', sans-serif ;
+}
+.p1{
+    display: flex;
+    column-gap: 50px;
+}
+.p2{
+    display: flex;
+    column-gap: 50px;
+}
+
+@media only screen and (max-width: 767px){
+    #prices{
+        flex-direction: column;
+    }
+    .p1{
+        flex-direction: column;
+    }
+    .p2{
+        flex-direction: column;
+    }
+    .container3{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:992px){
+    #prices{
+        flex-direction: column;
+    }
+    #explare{
+        flex-direction: column;
+    }
 }
