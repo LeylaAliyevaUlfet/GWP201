@@ -59,12 +59,12 @@ border-radius: 15px;
 }
 div i{
     text-align:center;
-    background-color: #688f37;
+    background-color: lightgreen;
     border-radius: 50%;
-    border: 10px solid #688f37;
+    border: 10px solid lightgreen;
 }
 i{
-    color:green
+    color:green;
 }
 .button2{
     text-decoration: none;
