@@ -90,7 +90,18 @@ i{
     display: flex;
     column-gap: 50px;
 }
+@media only screen and (max-width: 992px){
+    .p1{
+        display: flex;
 
+    }
+    .p2{
+        display: flex;
+    }
+    #prices{
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width: 767px){
     #prices{
         flex-direction: column;
