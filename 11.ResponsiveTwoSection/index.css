@@ -105,11 +105,3 @@ i{
         flex-direction: column;
     }
 }
-@media only screen and (max-width:992px){
-    #prices{
-        flex-direction: column;
-    }
-    #explare{
-        flex-direction: column;
-    }
-}
