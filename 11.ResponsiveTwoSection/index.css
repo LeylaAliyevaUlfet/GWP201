@@ -82,34 +82,22 @@ i{
 .c2{
     font-family:'Catamaran', sans-serif ;
 }
-.p1{
-    display: flex;
-    column-gap: 50px;
+.not{
+    width: 25%;
 }
-.p2{
-    display: flex;
-    column-gap: 50px;
-}
-@media only screen and (max-width: 992px){
-    .p1{
-        display: flex;
 
-    }
-    .p2{
-        display: flex;
-    }
-    #prices{
-        flex-direction: column;
-    }
+@media only screen and (max-width: 992px){
+.not{
+    width: 25%;
+    width: 50%;
 }
+
+
+}
+
 @media only screen and (max-width: 767px){
+   
     #prices{
-        flex-direction: column;
-    }
-    .p1{
-        flex-direction: column;
-    }
-    .p2{
         flex-direction: column;
     }
     .container3{
