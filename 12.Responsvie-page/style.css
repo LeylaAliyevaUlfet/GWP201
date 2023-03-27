@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header section start */
+header{
+    background-color: black;
+    height:50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    height: 50px; 
+    /* I havent idea why i use hight for 50px but it is work, maybe 
+    because we said if you want align items work you should use height. */
+    align-items: center; 
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    /* I new learned outlines, i am so happy */
+    outline-width: 10px;
+    outline-color: white;
+    outline-style: solid;
+    border-radius: 3px;
+}
+/* Finish */
+.all{
+    padding: 0 130px;
+}
+/* Section 1 */
+.sec1{
+    background-image: url("./sec1.jpg");
+    /* Foto is not full, idk Why */
+    height: 100vh;
+    background-size: cover;
+    
+}
+.center{
+    position: relative;
+    top: 50px;
+    
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    /* Align items doesn't work. */
+    align-items: center;
+}
+.center div div span{
+    color: red;
+    text-shadow: 3px 2px 2px yellow;
+    font-size: 20px;
+}
+.center div div b{
+    font-size: 20px;
+    position: relative;
+}
+.center div div b::after{
+    /* i learn it from internet so i need ask my teacher for this */
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px; 
+
+    margin: 0 auto;
+      left: 0;
+    right: 2;
+      width: 125%;
+      background: green;
+      
+      
+      -o-transition:.5s;
+        -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+/* Finish */
+/* Section 2 */
+.sec2{
+    background-image: url(./sec2.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Finish */
+/* Section 3 */
+.sec3{
+    position: relative;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.box:nth-child(1){
+    left: 40%;
+    top: 100px;
+    background-color: blueviolet;
+    z-index: 5;
+}
+.box:nth-child(2){
+    left: 32%;
+    top: 110px;
+    background-color: pink;
+    z-index: 2;
+
+}
+.box:nth-child(3){
+    left: 38%;
+    top: 220px;
+    background-color: green;
+    z-index: 4;
+}
+.box:nth-child(5){
+    left: 50%;
+    top: 130px;
+    background-color: brown;
+    z-index: 1;
+}
+.box:nth-child(4){
+    left: 47%;
+    top: 230px;
+    background-color: grey;
+    z-index: 3;
+}
+.border1{
+    border: 2px solid yellow;
+   border-radius: 15px;
+   padding: 300px;
+}
+.sec3 h1{
+    text-align: center;
+}
+
+
+
+ 
+
+ 
+
+
