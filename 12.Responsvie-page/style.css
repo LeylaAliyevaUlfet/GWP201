@@ -64,8 +64,10 @@ nav ul li a:hover{
     
     display: flex;
     justify-content: center;
-    height: 150px;
+    height: 100vh;
     /* Align items doesn't work. */
+    width: 50%;
+    margin: 0 auto;
     align-items: center;
 }
 .center div div span{
