@@ -10,6 +10,12 @@ header{
     position: fixed;
     z-index: 1;
 }
+.nav1{
+    display: block;
+}
+.nav2{
+    display: none;
+}
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -37,6 +43,7 @@ nav ul li a:hover{
 /* Finish */
 .all{
     padding: 0 130px;
+    
 }
 /* Section 1 */
 .sec1{
@@ -44,7 +51,12 @@ nav ul li a:hover{
     /* Foto is not full, idk Why */
     height: 100vh;
     background-size: cover;
+    display: block;
     
+    
+}
+.mobsec1{
+    display: none;
 }
 .center{
     position: relative;
@@ -93,11 +105,16 @@ nav ul li a:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+}
+.mobsec2{
+    display: none;
 }
 /* Finish */
 /* Section 3 */
 .sec3{
     position: relative;
+    display: block;
 }
 .box{
     height: 150px;
@@ -143,15 +160,95 @@ nav ul li a:hover{
     border: 2px solid yellow;
    border-radius: 15px;
    padding: 300px;
+   
 }
 .sec3 h1{
     text-align: center;
 }
 
+@media only screen and (max-width: 991px){
+.sec1{
+    display: none;
+}
+.mobsec1{
+    display: block;
+    background-image: url(./sec1mobile.jpg);
+    height: 100vh;
+    background-position: center;
+}
+.all{
+    
+    padding: 0;
+}
+.sec2{
+    display: none;
+    
+}
+.mobsec2{
+    background-image: url(./product-3.jpeg);
+    height: 100vh;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box{
+    width: 20%;
+}
+.box:nth-child(1){
+    left: 0;
+    top: 30px;
+    background-color: blueviolet;
+    z-index: 5;
+    
+}
+.box:nth-child(2){
+    left: 20%;
+    top: 30px;
+    background-color: pink;
+    z-index: 2;
 
-
+}
+.box:nth-child(3){
+    left: 40%;
+    top: 30px;
+    background-color: green;
+    z-index: 4;
+}
+.box:nth-child(5){
+    left: 80%;
+    top: 30px;
+    background-color: brown;
+    z-index: 1;
+}
+.box:nth-child(4){
+    left: 60%;
+    top: 30px;
+    background-color: grey;
+    z-index: 3;
+}
+.border1{
+    border: 2px solid yellow;
+    border-radius: 15px;
+    
+    padding: 80px;
+    
+}
+.nav1{
+    display: none;
+}
+ .nav2{
+    display: block;
+ }
+.nav2 ul li a:hover{
+    background-color: white;
+    color: black;
+    /* I new learned outlines, i am so happy */
+    outline-width: 10px;
+    outline-color: white;
+    outline-style: solid;
+    border-radius: 3px;
+}
  
-
- 
-
-
+}
