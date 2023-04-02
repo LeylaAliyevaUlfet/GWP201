@@ -1,0 +1,69 @@
+.hero{
+    
+
+    .container{height: 100vh;
+        @include space;
+        position: relative;
+        column-gap: 109px;
+        
+        .left{ 
+            .middle{
+                margin-top: 24px;
+                font-size: 64px;
+            }
+            .end{
+                margin-top: 32px;
+                font-size: 24px;
+            }
+            .bb{ 
+                margin-top: 64px;
+                display: flex;
+                column-gap: 20px;
+                
+                .herosignup{@extend %primary_button;
+                  a{   
+                     
+                        color: white;}
+                     
+                    
+                }
+                .learn{
+                    @extend %primary_button;
+
+background-color: white;
+border: 1px solid black;
+
+a{
+    color: black;
+}
+                }
+            }
+        }
+        .right{
+            
+            .ultrabg{
+                
+                position: absolute;
+                top: 84px;
+                right: 4px;
+            }
+            .bg{
+                position: absolute;
+                top: 125px;
+            }
+            .updated{
+               position: absolute;
+               top: 450px;
+               right: 229px;
+               z-index: 1;
+            }
+            .profile{
+                z-index: 3;
+            }
+            .vector{
+                z-index: 3;
+            }
+        }
+    }
+    
+}

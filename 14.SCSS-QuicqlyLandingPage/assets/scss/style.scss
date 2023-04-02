@@ -1,12 +1,9 @@
 @import "./base/reset";
 @import "./utils/variables";
-@import "./utils/mixins";
+@import "./utils/mixin";
 @import "./components/buttons";
+@import "./base/typograpy";
 @import "./layout/header";
 @import "./layout/footer";
 @import "./pages/hero";
-@import "./vendors/bootstrap";
-@import "./themes/team";
-
-
-
+@import "./pages/teamsec";

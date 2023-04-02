@@ -1,0 +1,50 @@
+footer{ background-color: #072125;
+.container{
+    display: flex;
+    column-gap: 239px;
+    height: 100vh;
+    .footleft{
+        display: flex;
+        flex-direction: column;
+        row-gap: 31px;
+        
+         color: white;
+        .choose1{
+            display: flex;
+            column-gap: 71px;
+           
+        }
+        .choose2{
+            display: flex;
+            column-gap: 33px;
+        }
+        .last{
+            display: flex;
+            input{
+                border-radius: 5px;
+            }
+            .green{
+                @extend %primary_button;
+                height: 30px;
+                width: 70px;
+                background-color: #B8E4DA;
+                color: #072125;
+            }
+        }
+    }
+    .footright{
+        color: white;
+        display: flex;
+        column-gap: 80px;
+       
+       
+       
+    }
+   
+} hr{
+        color: white;
+    }
+    .qui{
+        @include space;
+        color: white;
+    }}

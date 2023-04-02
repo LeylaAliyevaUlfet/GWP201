@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.hero .container .left .bb .learn, .hero .container .left .bb .herosignup, footer .container .footleft .last .green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+  width: 136px;
+  border-radius: 8px;
+  background-color: #20484F;
+}
+
+h4 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #20484F;
+  width: 100% px;
+  height: 75px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.header .quickly {
+  height: 30px;
+  width: 99px;
+  left: 40px;
+  top: 21px;
+  border-radius: nullpx;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+.header nav ul li a {
+  color: white;
+  height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.header nav ul li a:nth-child(1) {
+  width: 67px;
+}
+.header nav ul li a:nth-child(2) {
+  width: 70px;
+}
+.header nav ul li a:nth-child(3) {
+  width: 67px;
+}
+.header nav ul li a:nth-child(4) {
+  width: 68px;
+}
+.header nav ul li a:nth-child(1) {
+  width: 87px;
+}
+.header .signs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.header .signs .ups {
+  border-radius: 8px;
+  padding: 10px 16px 10px 16px;
+  background-color: #B8E4DA;
+}
+.header .signs .ups a {
+  color: #20484F;
+  height: 41px;
+}
+.header .signs .ins a {
+  color: white;
+}
+
+footer {
+  background-color: #072125;
+}
+footer .container {
+  display: flex;
+  -moz-column-gap: 239px;
+       column-gap: 239px;
+  height: 100vh;
+}
+footer .container .footleft {
+  display: flex;
+  flex-direction: column;
+  row-gap: 31px;
+  color: white;
+}
+footer .container .footleft .choose1 {
+  display: flex;
+  -moz-column-gap: 71px;
+       column-gap: 71px;
+}
+footer .container .footleft .choose2 {
+  display: flex;
+  -moz-column-gap: 33px;
+       column-gap: 33px;
+}
+footer .container .footleft .last {
+  display: flex;
+}
+footer .container .footleft .last input {
+  border-radius: 5px;
+}
+footer .container .footleft .last .green {
+  height: 30px;
+  width: 70px;
+  background-color: #B8E4DA;
+  color: #072125;
+}
+footer .container .footright {
+  color: white;
+  display: flex;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+footer hr {
+  color: white;
+}
+footer .qui {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.hero .container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  -moz-column-gap: 109px;
+       column-gap: 109px;
+}
+.hero .container .left .middle {
+  margin-top: 24px;
+  font-size: 64px;
+}
+.hero .container .left .end {
+  margin-top: 32px;
+  font-size: 24px;
+}
+.hero .container .left .bb {
+  margin-top: 64px;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.hero .container .left .bb .herosignup a {
+  color: white;
+}
+.hero .container .left .bb .learn {
+  background-color: white;
+  border: 1px solid black;
+}
+.hero .container .left .bb .learn a {
+  color: black;
+}
+.hero .container .right .ultrabg {
+  position: absolute;
+  top: 84px;
+  right: 4px;
+}
+.hero .container .right .bg {
+  position: absolute;
+  top: 125px;
+}
+.hero .container .right .updated {
+  position: absolute;
+  top: 450px;
+  right: 229px;
+  z-index: 1;
+}
+.hero .container .right .profile {
+  z-index: 3;
+}
+.hero .container .right .vector {
+  z-index: 3;
+}
+
+.container .p1 {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container .row {
+  margin-bottom: 82px;
+}
+.container .row .col h4 {
+  color: dark;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.container .row .col p {
+  color: #20484F;
+  margin-bottom: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container .row .col .icons {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}/*# sourceMappingURL=style.css.map */

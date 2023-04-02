@@ -1,0 +1,79 @@
+.header{
+    @include space;
+    background-color: #20484F;
+    width: 100%px;
+height: 75px;
+font-family: 'Plus Jakarta Sans', sans-serif;
+.quickly{
+    height: 30px;
+width: 99px;
+left: 40px;
+top: 21px;
+border-radius: nullpx;
+color: white;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+
+}
+    nav{
+        
+        ul{@include space;
+            column-gap: 32px;
+
+            li{
+                
+                a{
+                       color: white;
+                       height: 24px;
+                       font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+                       &:nth-child(1){
+                        width: 67px; 
+                       }
+                       &:nth-child(2){
+                        width: 70px; 
+                       }
+                       &:nth-child(3){
+                        width: 67px; 
+                       }
+                       &:nth-child(4){
+                        width: 68px; 
+                       }
+                       &:nth-child(1){
+                        width: 87px; 
+                       }
+                }
+            }
+        }
+}
+.signs{
+    @include space;
+    column-gap: 12px;
+    .ups{
+        
+        a{
+            color: #20484F;
+            height: 41px;
+
+
+        }
+
+border-radius: 8px;
+padding: 10px 16px 10px 16px;
+
+        background-color: #B8E4DA;
+ 
+
+    }
+    .ins{
+        a{
+            color: white;
+        }
+    }
+}
+}
