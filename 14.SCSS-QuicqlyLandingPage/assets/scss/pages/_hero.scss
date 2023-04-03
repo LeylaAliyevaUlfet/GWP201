@@ -6,6 +6,7 @@
         position: relative;
         column-gap: 109px;
         
+        
         .left{ 
             .middle{
                 margin-top: 24px;
@@ -20,7 +21,9 @@
                 display: flex;
                 column-gap: 20px;
                 
+                
                 .herosignup{@extend %primary_button;
+                    display: block;
                   a{   
                      
                         color: white;}
@@ -29,6 +32,7 @@
                 }
                 .learn{
                     @extend %primary_button;
+                    display: block;
 
 background-color: white;
 border: 1px solid black;
@@ -38,9 +42,12 @@ a{
 }
                 }
             }
+            .last{
+                display: none;
+            }
         }
-        .right{
-            
+        .right1{
+            display: block;
             .ultrabg{
                 
                 position: absolute;
@@ -63,6 +70,58 @@ a{
             .vector{
                 z-index: 3;
             }
+        }
+        .right2{
+            display: none;
+        }
+        @media only screen and (max-width: 991px){
+            display: flex;
+            flex-direction: column-reverse;
+            .right1{
+                display: none;
+            }
+            .right2{
+                display: block;
+            }
+            .left{
+                .bb{
+                    .herosignup{
+                        display: none;
+                    }
+                    .learn{
+                        display: none;
+                    }
+                }
+                .last{
+                    display: block;
+               
+                }
+            }
+        }
+        @media only screen and (max-width: 767px){
+            display: flex;
+            flex-direction: column-reverse;
+            .right1{
+                display: none;
+            }
+            .right2{
+                display: block;
+            }
+            .left{
+                .bb{
+                    .herosignup{
+                        display: none;
+                    }
+                    .learn{
+                        display: none;
+                    }
+                }
+                .last{
+                    display: block;
+               
+                }
+            }
+           
         }
     }
     

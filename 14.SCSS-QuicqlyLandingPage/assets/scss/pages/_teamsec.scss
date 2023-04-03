@@ -5,6 +5,9 @@
     }
     .row{
         .col{
+            i{
+                display: block;
+            }
             h4{
                 color: dark;
                 margin-top: 16px;
@@ -23,5 +26,15 @@
             }
         }
         margin-bottom: 82px;
+    }
+    @media only screen and (max-width:767px){
+.row{
+    
+    .col-lg{
+        i{
+            display: none;
+        }
+    }
+}
     }
 }
