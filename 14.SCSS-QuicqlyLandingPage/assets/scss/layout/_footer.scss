@@ -8,6 +8,7 @@ footer{ background-color: #072125;
         flex-direction: column;
         row-gap: 31px;
         
+        
          color: white;
         .choose1{
             display: flex;
@@ -55,9 +56,10 @@ footer{ background-color: #072125;
                
                }
             }
-        }
-        .footleft{
+            .footleft{
             display: none;
+        }
+        
         }
     }
 } hr{

@@ -210,9 +210,9 @@ footer .container .footright .icons {
   footer .container .footright .icons {
     display: block;
   }
-}
-footer .container .footleft {
-  display: none;
+  footer .container .footleft {
+    display: none;
+  }
 }
 
 hr {
