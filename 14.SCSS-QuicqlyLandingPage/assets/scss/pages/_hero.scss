@@ -8,6 +8,26 @@
         
         
         .left{ 
+            @media only screen and (max-width: 767px){
+                .last{
+                    display: flex;
+                    position: relative;
+                    input{
+                        border-radius: 5px;
+                        
+                    }
+                    .green{
+                        @extend %primary_button;
+                        height: 25px;
+                        width: 70px;
+                        background-color: #B8E4DA;
+                        color: #072125;
+                        border-radius: 5px;
+                        position: absolute;
+                        left: 170px;
+                        top: 1.5px;}
+
+                    }}
             .middle{
                 margin-top: 24px;
                 font-size: 64px;
@@ -22,8 +42,8 @@
                 column-gap: 20px;
                 
                 
-                .herosignup{@extend %primary_button;
-                    display: block;
+                .herosignup{ @extend %primary_button;
+                    // display: block;
                   a{   
                      
                         color: white;}
@@ -32,7 +52,7 @@
                 }
                 .learn{
                     @extend %primary_button;
-                    display: block;
+                    // display: block;
 
 background-color: white;
 border: 1px solid black;
@@ -48,6 +68,7 @@ a{
         }
         .right1{
             display: block;
+            
             .ultrabg{
                 
                 position: absolute;
@@ -82,6 +103,7 @@ a{
             }
             .right2{
                 display: block;
+                margin-top: 150px;
             }
             .left{
                 .bb{
@@ -101,11 +123,15 @@ a{
         @media only screen and (max-width: 767px){
             display: flex;
             flex-direction: column-reverse;
+            height: 100%;
+           
+           
             .right1{
                 display: none;
             }
             .right2{
                 display: block;
+                margin-top: 150px;
             }
             .left{
                 .bb{

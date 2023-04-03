@@ -178,15 +178,20 @@ footer .container .footleft .choose2 {
 }
 footer .container .footleft .last {
   display: flex;
+  position: relative;
 }
 footer .container .footleft .last input {
   border-radius: 5px;
 }
 footer .container .footleft .last .green {
-  height: 30px;
+  height: 25px;
   width: 70px;
   background-color: #B8E4DA;
   color: #072125;
+  border-radius: 5px;
+  position: absolute;
+  left: 170px;
+  top: 1.5px;
 }
 footer .container .footright {
   color: white;
@@ -194,24 +199,28 @@ footer .container .footright {
   -moz-column-gap: 80px;
        column-gap: 80px;
 }
+footer .container .footright h4 {
+  display: none;
+}
 footer .container .footright .icons {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  footer .container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
   footer .container .footright {
     display: flex;
     flex-direction: column;
+  }
+  footer .container .footright h4 {
+    display: block;
   }
   footer .container .footright .icons {
     display: block;
   }
   footer .container .footleft {
     display: none;
+  }
+  footer .container .footleft .left {
+    text-align: center;
   }
 }
 
@@ -249,14 +258,10 @@ hr {
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-.hero .container .left .bb .herosignup {
-  display: block;
-}
 .hero .container .left .bb .herosignup a {
   color: white;
 }
 .hero .container .left .bb .learn {
-  display: block;
   background-color: white;
   border: 1px solid black;
 }
@@ -303,6 +308,7 @@ hr {
   }
   .hero .container .right2 {
     display: block;
+    margin-top: 150px;
   }
   .hero .container .left .bb .herosignup {
     display: none;
@@ -318,12 +324,14 @@ hr {
   .hero .container {
     display: flex;
     flex-direction: column-reverse;
+    height: 100%;
   }
   .hero .container .right1 {
     display: none;
   }
   .hero .container .right2 {
     display: block;
+    margin-top: 150px;
   }
   .hero .container .left .bb .herosignup {
     display: none;
@@ -343,25 +351,34 @@ hr {
 .container .row {
   margin-bottom: 82px;
 }
-.container .row .col i {
-  display: block;
+.container .row .col-lg .icons {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
 }
-.container .row .col h4 {
+.container .row .col-lg .icons i {
+  border: 2px solid rgb(182, 216, 235);
+  background-color: rgb(182, 216, 235);
+  border-radius: 50%;
+  padding: 10px;
+}
+.container .row .col-lg h4 {
   color: dark;
   margin-top: 16px;
   margin-bottom: 8px;
 }
-.container .row .col p {
+.container .row .col-lg p {
   color: #20484F;
   margin-bottom: 30px;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
-.container .row .col .icons {
+.container .row .col-lg .icons {
   display: flex;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
 }
 @media only screen and (max-width: 767px) {
+  .container .row {
+    text-align: center;
+  }
   .container .row .col-lg i {
     display: none;
   }
