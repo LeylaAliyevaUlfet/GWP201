@@ -1,5 +1,5 @@
 # GWP201
-14.SCSS-QuicqlyLandingPage   https://cheery-wisp-16894a.netlify.app/
+14.SCSS-QuicqlyLandingPage   https://ubiquitous-puffpuff-e68c96.netlify.app/
 
 12.Responsive-page   https://luminous-hotteok-d034b2.netlify.app/
 
